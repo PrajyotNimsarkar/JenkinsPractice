@@ -28,6 +28,11 @@
             <h2>Contact Us</h2>
             <p>You can reach us at example@email.com.</p>
         </section>
+
+        <section>
+            <h2>Check Git</h2>
+            <p>checking git configuration with EC2</p>
+        </section>
     </main>
 
     <footer>
