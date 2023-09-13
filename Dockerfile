@@ -1,7 +1,5 @@
-FROM httpd
+FROM httpd:2.4
 
-COPY ./index.html /usr/share/httpd/noindex
+COPY ./index.html /usr/local/apache2/htdocs/
 
-EXPOSE 3000
-
-CMD ["httpd" , "-D" , "FOREGROUND"]
+EXPOSE 80
